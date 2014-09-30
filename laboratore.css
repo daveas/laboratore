@@ -200,7 +200,7 @@ footer {
 
 	.header {
 	background-size:cover;
-	background: url('http://oi60.tinypic.com/jfdbbs.jpg') no-repeat center bottom fixed;
+	background: url('http://oi60.tinypic.com/jfdbbs.jpg') repeat center bottom fixed;
 	}
 
 	.callout {
