@@ -190,3 +190,8 @@ img < .img-circle-grayscale {
 footer {
   padding: 100px 0;
 }
+
+@media only screen and (max-device-width: 600px) {
+		#laboratore {
+		width: 80%;
+		}
