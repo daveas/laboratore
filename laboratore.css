@@ -192,6 +192,18 @@ footer {
 }
 
 @media only screen and (max-device-width: 600px) {
-		#laboratore {
-		width: 80%;
-		}
+	
+	#laboratore {
+	width: 80%;
+	height: 80%;
+	}
+
+	.header {
+	background-size:cover;
+	background: url('http://oi60.tinypic.com/jfdbbs.jpg') no-repeat center bottom fixed;
+	}
+
+	.callout {
+	height:800px;
+	}
+}
