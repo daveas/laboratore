@@ -80,6 +80,10 @@ img.grayscale {
   max-width: 100%;
 }
 
+h1 {
+  padding-bottom: 15px;
+}
+
 .vert {
   vertical-align: middle;
   margin-left: auto;
