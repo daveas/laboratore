@@ -2,13 +2,16 @@
 <html lang="en">
 
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<meta charset="utf-8">
-	<title>Laborator-E</title>
-	<meta name="generator" content="Bootply" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>Laborator-E</title>
+  <meta name="generator" content="Bootply" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
   <link rel="stylesheet" href="laboratore.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
 </head>
 
 <body>
@@ -101,47 +104,10 @@
           <li><i class="icon-pinterest icon-2x"></i></li>
         </ul>
         <hr>
-        <p>Built with <i class="icon-heart-empty"></i> at <a href="http://www.bootply.com">Bootply</a>.<br>Modifications made by <a href="http://www.godownwind.co">Dave Seeman</a>
-        <br>Down Wind Ventures ©2014</p>
+        <p>Built with <i class="icon-heart-empty"></i> at <a href="http://www.bootply.com">Bootply</a>.<br>Modifications made by <a href="http://www.daveas.github.io">Dave Seeman</a>
+        <br>David A Seeman ©2014</p>
       </div>
     </div>
   </div>
 </footer>
-
-<ul class="nav pull-right scroll-down">
-  <li><a href="#" title="Scroll down"><i class="icon-chevron-down icon-3x"></i></a></li>
-</ul>
-<ul class="nav pull-right scroll-top">
-  <li><a href="#" title="Scroll to top"><i class="icon-chevron-up icon-3x"></i></a></li>
-</ul>
-
-	<!-- script references -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/scripts.js"></script>
-
-<!-- custom javascript-->
-
-<script>
-
-	$(document).ready(function(){
-	
-	/* smooth scrolling for scroll to top */
-	$('.scroll-top').click(function(){
-	  $('body,html').animate({scrollTop:0},1000);
-	})
-	
-	/* smooth scrolling for scroll down */
-	$('.scroll-down').click(function(){
-	  $('body,html').animate({scrollTop:$(window).scrollTop()+800},1000);
-	})
-
-	/* highlight the top nav as scrolling occurs */
-	$('body').scrollspy({ target: '#navbar' })
-	
-	});
-
-</script>
-
-	
 </body>
